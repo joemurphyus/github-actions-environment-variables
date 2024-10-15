@@ -27,5 +27,5 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Print name
-      run: echo "Hello $NAME Java version $JAVA_NAME"
+      run: echo "Hello $NAME"
       
