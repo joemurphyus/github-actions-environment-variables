@@ -8,11 +8,13 @@ on:
     
 env:
   NAME: 'Joe Demo'
-  JAVA_VERSION: '8'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+  env:
+    JAVA_VERSION: '8'
 
     steps:
     - uses: actions/checkout@v3
